@@ -1,0 +1,33 @@
+body { font-family: "Courir New", Courier, monospace; }
+
+/* h1 { color:red; }
+
+h2 { color:green; }
+
+h4 { color:pink; }
+
+li { color:blue; } */
+
+#titulo {
+	background-color:grey;
+	color:white;
+	font-size:24px;
+}
+
+.ejemplo {
+	background-color:blue;
+	color:white;
+}
+/* Es muy importante el orden en el que se colocan las cosas */
+h2, h3, h4 { border:1px solid orange; }
+
+li { color:red; }
+li li { color:green; }
+
+div>a { border:5px solid green; }
+
+h2+p { background-color:green; } /*h2 y despues una etiqueta p */
+
+p~h3.antes { background-color:pink; } /* Una et. p y antes un h3 y que cumpla que tenga la clase = "antes" */
+
+img[alt="ejemplo"] { border:5px solid grey; }
