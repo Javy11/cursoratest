@@ -1,7 +1,37 @@
-h1 { color:red; }
+h1
+	{
+		text-align:center;
+	}
 
-h4 { color:pink; }
+legend
+	{
+		/* border:1px solid black SERIA ASI ABREVIADO */
+		border-style:solid;
+		border-color:black;
+		border-width:thin;
+		border-radius:25px;
+		background-color:white;
+	}
 
-li { color:blue; }
-
-h2 { color:green; }
+#n1
+	{
+		background-color:grey;
+		border-radius:25px;
+	}
+	
+#n2
+	{
+		background-color:orange;
+		border-radius:25px;
+	}
+	
+#n3
+	{
+		background-color:red;
+		border-radius:25px;
+	}
+	
+ul
+	{
+		list-style-type:none;
+	}
