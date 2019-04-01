@@ -2,95 +2,47 @@
 
 <html lang="es">
 	<head>
-		<title>Formulario</title>
+		<title>Exposición</title>
 		<meta charset="UTF-8">
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 	</head>
 	
 	<body>
-		<h1>HOJA DE INSCRIPCION</h1>
-		<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
-		<form action="#" method="post">
-		<fieldset id="n1">
-			<legend>Datos personales</legend>
-			<table>
-				<tr>
-					<td><label for="nombre">Nombre:</label></td>
-					<td><label for="apellidos">Apellidos:</label></td>
-					<td><label for="dni">DNI:</label></td>
-				</tr>
-				
-				<tr>
-					<td><input type="text" id="nombre" name="nombre" value="" /></td>
-					<td><input type="text" id="apellido" name="apellido" value="" /></td>
-					<td><input type="text" id="dni" name="dni" value="" maxlength="9"/></td>
-				</tr>
-				
-				<tr>
-					<td><label for="localidad">Localidad de Nacimiento:</label></td>
-					<td><label for="provincia">Provincia:</label></td>
-					<td><label for="nombre">Fecha de Nacimiento:</label></td>
-				</tr>
-				
-				<tr>
-					<td><input type="text" id="localidad" name="localidad" value="" /></td>
-					<td><select id="provincia" name="provincia">
-						  <option value="" selected="selected">- selecciona -</option>
-						  <option value="Cantabria">Cantabria</option>
-						  <option value="CyL">Castilla y León</option>
-						  <option value="Asturias">Asturias</option>
-						  <option value="PaisVasco">País Vasco</option>
-						</select></td>
-					<td><input type="text" id="localidad" name="localidad" value="dd/mm/aaaa" /></td>
-				</tr>
-				
-				<tr>
-					<td colspan="2"><label for="direccion">Direccion:</label></td>
-					<td><label for="CP">Código Postal</label></td>
-				</tr>
-				
-				<tr>
-					<td colspan="2"><input type="text" id="direccion" name="direccion" value="" size="40" /></td>
-					<td><input type="text" id="CP" name="CP" value="" /></td>
-				</tr>
-			</table>
-		</fieldset>
-
-		<br/>
-
-		<fieldset id="n2">
-			<legend>Forma de Acceso</legend>
-			<ul>
-				<li><input type="radio" name="acceso" value="directo" /> Directo 
-				<ul>
-					<li><input type="radio" name="directo" value="bach" /> Bachillerato Log Modalidad: <input type="text" id="bach" name="modalidad" value="" /></li>
-					<li><input type="radio" name="directo" value="experimental" /> Experimental</li>
-					<li><input type="radio" name="directo" value="cou" /> COU Opción: <input type="text" id="cou" name="opcion" value="" /></li>
-					<li><input type="radio" name="directo" value="fp2" /> FP2</li>
-					<li><input type="radio" name="directo" value="otros" /> Otros (especifique): <input type="text" id="otros" name="otros" value="" /></li>
-				</ul></li>
-				<li><input type="radio" name="acceso" value="prueba_libre" /> Prueba Libre</li>
-			</ul>
-		</fieldset>
-
-		<br/>
-
-		<fieldset id="n3">
-			<legend>Documentos Adjuntados</legend>
-			<table>
-				<tr>
-					<td><input name="documentos" type="checkbox" value="foto_DNI"/> Fotocopia DNI</td>
-					<td><input name="documentos" type="checkbox" value="certificado"/> Certificado Académico</td>
-				</tr>
-				
-				<tr>
-					<td colspan="2"><input name="documentos" type="checkbox" value="otros"/> Otros Documentos (especifique): <input type="text" id="otros" name="documentos" value="" /></td>
-				</tr>
-			</table>
-		</fieldset>
-
-		<br/>
-
-		<input type="submit" name="enviar" value="Enviar Solicitud" />
+		<div id="first">
+			<h1 class="centrar">ORIGEN</h1>
+			<h3 class="centrar">Miguel Ángel Rodríguez González</h3>
+			<img id="a" src="img/Origen.jpeg" alt="" title="">
+			<p>El origen de todos los seres vivos comienza en algo débil e insignificante.
+			Sin embargo, con el paso del tiempo y el desarrollo se convierte en algo grandioso
+			capaz de perpetuarse en el tiempo. La micrografía muestra gran cantidad de esporas
+			de una especie del género Penicillum (verde) sobre la superficie del exoesqueleto
+			de un pulgón que afecta a los cultivos de cereales. En el centro de la imagen
+			se puede observar la germinación de una espora (rojo), que posteriormente dará
+			lugar a las hifas del micelio del hongo, capaces de generar nuevas esporas que
+			serán diseminadas al aire para su distribución.</p>
+			<p>EQUIPO FOTOGRÁFICO: Microscopio electrónico de barrido AURIGA (FIB-FESEM) de
+			Carl Zeiss SMT.</p>
+		</div>
+			<br/>
+			<hr>
+			<br/>
+		<div id="scnd">
+			<h1 class="centrar">POLVO DE ESTRELLAS</h1>
+			<h3 class="centrar">Ramón Fernández Ruíz</h3>
+			<h3 class="centrar">COAUTORÍA: Eberhardt Josué Friedrich Kernahan y María Jesús Redrejo Rodríguez</h3>
+			<img id="b" src="img/PolvoEstrellas.jpeg" alt="" title="">
+			<p>Una estrella moribunda sobre el fondo celeste colapsa sobre sí misma cada vez
+			más rápidamente hasta que explosiona generando intensas ondas de presión esféricas
+			que se expanden hacia el firmamento en forma de Supernova. Finalmente, como
+			resultado, toda ella se convierte en polvo de estrellas. Polvo de estrellas del
+			que todos procedemos y muy especialmente la vida. La imagen realmente muestra un
+			depósito de una alícuota de aguas del Río Tinto, un sistema de condiciones de vida 
+			extrema similares a Marte, donde coexisten multitud de formas de vida extremófilas que
+			demuestran, una vez más y por muy increíble que parezca, que la vida siempre sabe como
+			abrirse camino.</p>
+			<p>EQUIPO FOTOGRÁFICO: Microscopio binocular Nikon SMZ800</p>
+		</div>
+			<br/>
+			<hr>
 	</body>
 </html>

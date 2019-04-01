@@ -1,37 +1,39 @@
-h1
-	{
-		text-align:center;
-	}
+body {
+	background-color: grey;
+}
 
-legend
-	{
-		/* border:1px solid black SERIA ASI ABREVIADO */
-		border-style:solid;
-		border-color:black;
-		border-width:thin;
-		border-radius:25px;
-		background-color:white;
-	}
+.centrar {
+	text-align:center;
+}
 
-#n1
-	{
-		background-color:grey;
-		border-radius:25px;
-	}
-	
-#n2
-	{
-		background-color:orange;
-		border-radius:25px;
-	}
-	
-#n3
-	{
-		background-color:red;
-		border-radius:25px;
-	}
-	
-ul
-	{
-		list-style-type:none;
-	}
+#first {
+	background-color:grey;
+}
+
+#a{
+	background-color:blue;
+	width: 600px;
+	border-top:10px solid green;
+	border-bottom:10px dashed orange;
+	padding:20px;/* Con padding creo una especie de rango donde puedo poner
+	fondo de pantalla de un color diferente */
+	/* CENTRAR LA IMAGEN */
+	margin:10px auto;
+	display:block;
+}
+
+#scnd {
+	background-color:grey;
+}
+
+#b {
+	background-color:red;
+	width: 600px;
+	border-top:10px solid green;
+	border-bottom:10px dashed orange;
+	padding:20px; /* Con padding creo una especie de rango donde puedo poner
+	fondo de pantalla de un color diferente */
+	/* CENTRAR LA IMAGEN */
+	margin:10px auto;
+	display:block;
+}
