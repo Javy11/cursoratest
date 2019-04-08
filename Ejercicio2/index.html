@@ -1,48 +1,60 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CSS gallery example - MDN</title>
+<link rel="stylesheet" href="css/style.css">
 
-<html lang="es">
-	<head>
-		<title>Exposición</title>
-		<meta charset="UTF-8">
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
-	</head>
+</head>
+
+<body>
+<h1>CSS gallery</h1>
+<div id="gallery-container">
+	<div class="gallery-item">
+		<img  src="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__480.jpg" class="gallery-preview" />
+		<img  src="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__480.jpg" class="gallery-fullsize" />
+	</div>
+	<div class="gallery-item">
+		<img  src="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__480.jpg" class="gallery-preview" />
+		<img  src="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__480.jpg" class="gallery-fullsize" />
 	
-	<body>
-		<div id="first">
-			<h1 class="centrar">ORIGEN</h1>
-			<h3 class="centrar">Miguel Ángel Rodríguez González</h3>
-			<img id="a" src="img/Origen.jpeg" alt="" title="">
-			<p>El origen de todos los seres vivos comienza en algo débil e insignificante.
-			Sin embargo, con el paso del tiempo y el desarrollo se convierte en algo grandioso
-			capaz de perpetuarse en el tiempo. La micrografía muestra gran cantidad de esporas
-			de una especie del género Penicillum (verde) sobre la superficie del exoesqueleto
-			de un pulgón que afecta a los cultivos de cereales. En el centro de la imagen
-			se puede observar la germinación de una espora (rojo), que posteriormente dará
-			lugar a las hifas del micelio del hongo, capaces de generar nuevas esporas que
-			serán diseminadas al aire para su distribución.</p>
-			<p>EQUIPO FOTOGRÁFICO: Microscopio electrónico de barrido AURIGA (FIB-FESEM) de
-			Carl Zeiss SMT.</p>
-		</div>
-			<br/>
-			<hr>
-			<br/>
-		<div id="scnd">
-			<h1 class="centrar">POLVO DE ESTRELLAS</h1>
-			<h3 class="centrar">Ramón Fernández Ruíz</h3>
-			<h3 class="centrar">COAUTORÍA: Eberhardt Josué Friedrich Kernahan y María Jesús Redrejo Rodríguez</h3>
-			<img id="b" src="img/PolvoEstrellas.jpeg" alt="" title="">
-			<p>Una estrella moribunda sobre el fondo celeste colapsa sobre sí misma cada vez
-			más rápidamente hasta que explosiona generando intensas ondas de presión esféricas
-			que se expanden hacia el firmamento en forma de Supernova. Finalmente, como
-			resultado, toda ella se convierte en polvo de estrellas. Polvo de estrellas del
-			que todos procedemos y muy especialmente la vida. La imagen realmente muestra un
-			depósito de una alícuota de aguas del Río Tinto, un sistema de condiciones de vida 
-			extrema similares a Marte, donde coexisten multitud de formas de vida extremófilas que
-			demuestran, una vez más y por muy increíble que parezca, que la vida siempre sabe como
-			abrirse camino.</p>
-			<p>EQUIPO FOTOGRÁFICO: Microscopio binocular Nikon SMZ800</p>
-		</div>
-			<br/>
-			<hr>
-	</body>
+	</div>
+	<div class="gallery-item">
+		<img  src="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg" class="gallery-preview" />
+		<img  src="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg" class="gallery-fullsize" />
+	
+	</div>
+	<div class="gallery-item">
+		<img  src="https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641__480.jpg" class="gallery-preview" />
+		<img  src="https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641__480.jpg" class="gallery-fullsize" />
+	
+	</div>
+</div>
+
+<br/>
+<hr>
+<br/>
+<div id="text-container">
+<!-- Con estados--><!-- Pseudolementos-->
+   <p>Listado de enlaces a las fotos recomendadas</p>
+    <p>Las fotos pertenecen a la página <a href="https://pixabay.com/">Pixabay</a> en donde se pueden encontrar imágenes gratuitas y sin licencias de copyright asociadas para utilizar en las páginas web.</p>
+
+    <!-- Con posición -->
+    <ul>
+        <li><a href="https://pixabay.com/photos/monkeys-nature-animals-babies-cute-768641/">Dos monos interactuando</a></li>
+        <li><a href="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__340.jpg">Flor del cerezo</a></li>
+        <li><a href="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__340.jpg">Nieve en la montaña</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg">2.1 Taj Mahal</a></li>
+        <li><a href="https://cdn.pixabay.com/photo/2015/11/07/11/22/dog-1031058__340.jpg">2.2 Perro Galgo Marrón</a></li>
+        <li><a href="https://pixabay.com/photos/homberg-clouds-selva-marine-1959229/">2.3 Mar de Nubes</a> </li>
+    </ul>
+
+    <!-- Pseudolementos-->
+    
+    <p>Para mostrar cómo usar los pseudo-selectores, los enlaces que no han sido visitados son de color #EC7063</p>
+</div>
+</body>
 </html>
