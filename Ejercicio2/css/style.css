@@ -1,118 +1,59 @@
-#gallery-container {
-	position: relative;
-	width: 500px;
-	height: auto;
-	padding-top: 300px;
-	padding-bottom: 15px;
-	margin-left: auto;
-	margin-right: auto;
+table{
+	border-collapse:collapse;
+}
+
+caption {
+	background-color: pink;
+	color: green;
+	font-size: 18px;
+}
+
+table, td {
+	border: 1px solid pink;
 	text-align: center;
-	border: 1px #aaaaaa solid;
 }
 
-#text-container{
-    position: relative;
-	width: 360px;
-	height: auto;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	border: 1px #aaaaaa solid;
-}
-img.gallery-preview{
-	width:50px;
-	height:50px;
-  
+tr td:first-child {
+	background-color: pink;
+	font-size: 18px;
+	color: green;
 }
 
-img.gallery-fullsize {
-	vertical-align: middle;
-	position: absolute;
-	top: 20px;
-	left: 52px;
-	display: none;
-	width: 400px;
-	height: auto;
-}
-
-.gallery-item {
-	display: inline-block;
-}
-
-img.gallery-preview:hover ~ img.gallery-fullsize {
-	display: block;
-}
-/* Con estados los enlaces sin utilizar son de color
-EC7063 y no tienen subrayado*/
-
-a:link {
-	color: #EC7063;
-	text-decoration: none;
-}
-
-/*Con estados, los enlaces al 
-pasar el ratón por encima cambian a color verde claro*/
-
-a:hover{
-	color: lightgreen;
-}
-
-
-/* Con estados, los enlaces ya visitados
-serán de color azul claro*/
-
-a:visited{
-	color: lightblue;
-}
-
-/*Con posición, el primer li tendrá el fondo verde claro*/
-
-li:first-child{
+tr:nth-child(5) td:nth-child(2){
 	background-color: lightgreen;
 }
 
-
-/*Con posición, el último hijo li del primer ul tendrá el fondo rosa*/
-
-ul:first-of-type li:last-child{
-	background-color: pink;
+a:link {
+	text-decoration: none;
+	color:green;
 }
 
-/*Con posición, el último ul tendrá un borde de 1px contínuo y negro*/
-
-ul:last-of-type{
-	border: 1px solid black;
+a:visited {
+	text-decoration: none;
+	color:violet;
 }
 
-/*Con posición, el segundo hijo del último ul será de color de letra gris*/
-
-ul:last-of-type li:nth-child(2){
-	color: grey;
+tr td:nth-child(6):hover, tr td:last-child:hover{
+	background-color: grey;
+	color:green;
 }
 
-/*Con Pseudoelementos, la primera letra de los párrafos p será 
-2 veces más grande y de color EC7063*/
-
-p:first-letter{
+tr td p:first-letter{
 	font-size: 2em;
-	color: #EC7063;
 }
 
-/* Con Peudoelementos, la primera línea de los párrafos p será un 
-20% mayor y de color (100,100,207)*/ 
-
-p:first-line{
-	font-size: 1.2em;
-	color: rgb(100,100,207);
+input:required{
+	border: 1px solid red;
+	padding: 10px;
 }
 
-/*Con Pseudoelemnetos, después de cada párrafo p se 
-añadirá el texto "Fin de Párrafo" con
-un borde azul clarito de 5px y contínuo*/
+label::after{
+	color: red;
+	content:"*";
+	vertical-align: super;
+}
 
-p:after{
-	content: "Fin de Párrafo";
-	border: 5px solid lightblue
+input[type="button"]{
+	background-color: lightgreen;
+	color: grey;
 }
