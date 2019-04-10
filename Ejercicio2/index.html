@@ -1,60 +1,54 @@
-<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>CSS gallery example - MDN</title>
-<link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-<h1>CSS gallery</h1>
-<div id="gallery-container">
-	<div class="gallery-item">
-		<img  src="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__480.jpg" class="gallery-preview" />
-		<img  src="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__480.jpg" class="gallery-fullsize" />
-	</div>
-	<div class="gallery-item">
-		<img  src="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__480.jpg" class="gallery-preview" />
-		<img  src="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__480.jpg" class="gallery-fullsize" />
-	
-	</div>
-	<div class="gallery-item">
-		<img  src="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg" class="gallery-preview" />
-		<img  src="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg" class="gallery-fullsize" />
-	
-	</div>
-	<div class="gallery-item">
-		<img  src="https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641__480.jpg" class="gallery-preview" />
-		<img  src="https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641__480.jpg" class="gallery-fullsize" />
-	
-	</div>
-</div>
-
-<br/>
-<hr>
-<br/>
-<div id="text-container">
-<!-- Con estados--><!-- Pseudolementos-->
-   <p>Listado de enlaces a las fotos recomendadas</p>
-    <p>Las fotos pertenecen a la página <a href="https://pixabay.com/">Pixabay</a> en donde se pueden encontrar imágenes gratuitas y sin licencias de copyright asociadas para utilizar en las páginas web.</p>
-
-    <!-- Con posición -->
-    <ul>
-        <li><a href="https://pixabay.com/photos/monkeys-nature-animals-babies-cute-768641/">Dos monos interactuando</a></li>
-        <li><a href="https://cdn.pixabay.com/photo/2019/03/24/08/28/cherry-blossoms-4077043__340.jpg">Flor del cerezo</a></li>
-        <li><a href="https://cdn.pixabay.com/photo/2019/03/10/16/38/vorarlberg-4046557__340.jpg">Nieve en la montaña</a></li>
-    </ul>
-
-    <ul>
-        <li><a href="https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__340.jpg">2.1 Taj Mahal</a></li>
-        <li><a href="https://cdn.pixabay.com/photo/2015/11/07/11/22/dog-1031058__340.jpg">2.2 Perro Galgo Marrón</a></li>
-        <li><a href="https://pixabay.com/photos/homberg-clouds-selva-marine-1959229/">2.3 Mar de Nubes</a> </li>
-    </ul>
-
-    <!-- Pseudolementos-->
-    
-    <p>Para mostrar cómo usar los pseudo-selectores, los enlaces que no han sido visitados son de color #EC7063</p>
-</div>
-</body>
+	<head>
+	<title>Ejemplo de tabla avanzada</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Comparativa de reproductores MP3</h1>
+		<table>
+		<caption>Tabla compartativa de las características técnicas de los reproductores MP3</caption>
+			<tr>
+				<td></td>
+				<td colspan="3"><img src="img/mp3_pequeno_blanco.png"></img><img src="img/mp3_pequeno_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Mini</strong></p></a></td>
+				<td colspan="3"><img src="img/mp3_grande_blanco.png"></img><img src="img/mp3_grande_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Grande</strong></p></a></td>
+				<td colspan="3"><img src="img/mp3_grande_blanco.png"></img><img src="img/mp3_grande_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Grande</strong></p></a></td>
+			</tr>
+			<tr>
+				<td><strong>Capacidad de Almacenamiento</strong></td>
+				<td>64GB</td>
+				<td>128GB</td>
+				<td>256GB</td>
+				<td>64GB</td>
+				<td>256GB</td>
+				<td>512GB</td>
+				<td>64GB</td>
+				<td>256GB</td>
+				<td>512GB</td>
+			</tr>
+			<tr>
+				<td><strong>Colores</strong></td>
+				<td colspan="3"><p><img src="img/color_negro.png"></img><img src="img/color_azul.png"></img><img src="img/color_rosa.png"></img></td>
+				<td colspan="3"><p><img src="img/color_blanco.png"></img><img src="img/color_negro.png"></img><img src="img/color_rosa.png"></img></td>
+				<td colspan="3"><p><img src="img/color_blanco.png"></img><img src="img/color_negro.png"></img><img src="img/color_rosa.png"></img></td>
+			</tr>
+			<tr>
+				<td><strong>Pantalla</strong></td>
+				<td colspan="3">LCD de 3 cm (diagonal) con retroiluminación</td>
+				<td colspan="3">LCD de 6 cm (diagonal) con retroiluminación</td>
+				<td colspan="3">LCD de 6 cm (diagonal) con retroiluminación</td>
+			</tr>
+			<tr>
+				<td><strong>Chip</strong></td>
+				<td colspan="9">A12 Bionic (Neuronal Engine)</td>
+			</tr>
+			<tr>
+				<td><strong>Cámara</strong></td>
+				<td colspan="3">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+				<td colspan="6">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+			</tr>
+		</table>
+		<br/>
+		<label>¿Quiere mantenerse informado de las novedades? </label>&nbsp;<input type="email" name="email" value="Introduce tu e-mail" required><input type="button" name="informar" value="Mantenerme Informado">
+	</body>
 </html>
