@@ -1,54 +1,61 @@
-<html>
-	<head>
-	<title>Ejemplo de tabla avanzada</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<h1>Comparativa de reproductores MP3</h1>
-		<table>
-		<caption>Tabla compartativa de las características técnicas de los reproductores MP3</caption>
-			<tr>
-				<td></td>
-				<td colspan="3"><img src="img/mp3_pequeno_blanco.png"></img><img src="img/mp3_pequeno_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Mini</strong></p></a></td>
-				<td colspan="3"><img src="img/mp3_grande_blanco.png"></img><img src="img/mp3_grande_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Grande</strong></p></a></td>
-				<td colspan="3"><img src="img/mp3_grande_blanco.png"></img><img src="img/mp3_grande_negro.png"></img><a href="https://www.google.es"><p><strong>MP3 Grande</strong></p></a></td>
-			</tr>
-			<tr>
-				<td><strong>Capacidad de Almacenamiento</strong></td>
-				<td>64GB</td>
-				<td>128GB</td>
-				<td>256GB</td>
-				<td>64GB</td>
-				<td>256GB</td>
-				<td>512GB</td>
-				<td>64GB</td>
-				<td>256GB</td>
-				<td>512GB</td>
-			</tr>
-			<tr>
-				<td><strong>Colores</strong></td>
-				<td colspan="3"><p><img src="img/color_negro.png"></img><img src="img/color_azul.png"></img><img src="img/color_rosa.png"></img></td>
-				<td colspan="3"><p><img src="img/color_blanco.png"></img><img src="img/color_negro.png"></img><img src="img/color_rosa.png"></img></td>
-				<td colspan="3"><p><img src="img/color_blanco.png"></img><img src="img/color_negro.png"></img><img src="img/color_rosa.png"></img></td>
-			</tr>
-			<tr>
-				<td><strong>Pantalla</strong></td>
-				<td colspan="3">LCD de 3 cm (diagonal) con retroiluminación</td>
-				<td colspan="3">LCD de 6 cm (diagonal) con retroiluminación</td>
-				<td colspan="3">LCD de 6 cm (diagonal) con retroiluminación</td>
-			</tr>
-			<tr>
-				<td><strong>Chip</strong></td>
-				<td colspan="9">A12 Bionic (Neuronal Engine)</td>
-			</tr>
-			<tr>
-				<td><strong>Cámara</strong></td>
-				<td colspan="3">Unas 2 horas para alcanzar el 80% de la capacidad</td>
-				<td colspan="6">Unas 2 horas para alcanzar el 80% de la capacidad</td>
-			</tr>
-		</table>
-		<br/>
-		<label>¿Quiere mantenerse informado de las novedades? </label>&nbsp;<input type="email" name="email" value="Introduce tu e-mail" required><input type="button" name="informar" value="Mantenerme Informado">
-	</body>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio de Posicionamiento de Elementos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+            <div class="nav-item">
+                Home
+            </div>
+            <div class="nav-item">
+                Products
+            </div>
+            <div class="nav-item">
+                About Us
+            </div>
+            <div class="nav-item">
+                Contact
+            </div>
+
+        </nav>
+        <figure id="li1">
+            <img src="img/img1.png" />
+            <figcaption>Lugar de Interés 1</figcaption>
+        </figure>
+        <figure id="li2">
+            <img src="img/img2.jpg" />
+            <figcaption>Lugar de Interés 2</figcaption>
+        </figure>
+        <figure id="li3">
+            <img src="img/img3.jpg" />
+            <figcaption>Lugar de Interés 3</figcaption>
+        </figure>
+        <figure id="li4">
+            <img src="img/img4.jpg" />
+            <figcaption>Lugar de Interés 4</figcaption>
+        </figure>
+    </div>
+
+    <div class="fixed-sidebar">
+        <img src="img/profile.png" />
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+</body>
+
 </html>
