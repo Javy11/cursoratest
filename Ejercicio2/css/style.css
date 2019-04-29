@@ -1,59 +1,36 @@
-table{
-	border-collapse:collapse;
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
-caption {
-	background-color: pink;
-	color: green;
-	font-size: 18px;
+.container {
+	background-color: lightgrey;
+	overflow-y: auto; /*height: 900px;*/
+	margin: 20px auto;
+	width: 90%;
+	padding: 20px;
 }
 
-table, td {
-	border: 1px solid pink;
-	text-align: center;
+.sidebar {
+	background-color: yellow;
+	height: 600px;
+	width: 25%;
+	float: left;
 }
 
-tr td:first-child {
-	background-color: pink;
-	font-size: 18px;
-	color: green;
+article {
+	background-color: red;
+	height: 300px;
+	width: 20%;
+	float: left;
+	margin-left: 5%;
 }
 
-tr:nth-child(5) td:nth-child(2){
-	background-color: lightgreen;
-}
-
-a:link {
-	text-decoration: none;
-	color:green;
-}
-
-a:visited {
-	text-decoration: none;
-	color:violet;
-}
-
-tr td:nth-child(6):hover, tr td:last-child:hover{
-	background-color: grey;
-	color:green;
-}
-
-tr td p:first-letter{
-	font-size: 2em;
-}
-
-input:required{
-	border: 1px solid red;
-	padding: 10px;
-}
-
-label::after{
-	color: red;
-	content:"*";
-	vertical-align: super;
-}
-
-input[type="button"]{
-	background-color: lightgreen;
-	color: grey;
+footer {
+	background-color: blue;
+	height: 290px;
+	width: 70%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5%;
 }
