@@ -1,36 +1,71 @@
+/* Siempre hay que ponerlo */
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
 
-.container {
-	background-color: lightgrey;
-	overflow-y: auto; /*height: 900px;*/
-	margin: 20px auto;
+.container{
+	/* Lo centramos (forma estandar) */
 	width: 90%;
-	padding: 20px;
+	margin: 0px auto;
+	/* PRUEBAS 
+	background-color: beige;
+	height: 600px; */
 }
 
-.sidebar {
+/* UNA FORMA DE PONER TODO LO QUE TENGO EN .container DARLE LA ALTURA DE 150px */
+.container > * {
+	height: 150px;
+}
+/*---------------------------------------------------------------------------- */
+
+header{
+	/* height: 150px; */
 	background-color: yellow;
-	height: 600px;
-	width: 25%;
-	float: left;
+	text-align: center;
+	padding-top: 2em;
 }
 
-article {
+.red {
+	/* height: 150px; */
 	background-color: red;
-	height: 300px;
-	width: 20%;
-	float: left;
-	margin-left: 5%;
 }
 
-footer {
+.blue{
+	/* height: 150px; */
 	background-color: blue;
-	height: 290px;
-	width: 70%;
-	float: left;
-	margin-top: 10px;
-	margin-left: 5%;
+}
+
+.green{
+	/* height: 150px; */
+	background-color: green;
+}
+
+@media screen and (min-width: 576px){
+
+	.red, .blue{
+		float: left;
+		width: 50%;
+	}
+
+	.green{
+		float: left;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 993px){
+
+	.red, .blue, .green{
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media screen and (orientation: landscape){
+
+	header{
+		background-color: orange;
+		color:green;
+	}
 }
